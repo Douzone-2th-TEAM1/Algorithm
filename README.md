@@ -22,7 +22,7 @@
 | 월/일 | 문제                           | 풀이 링크 |
 | ----------- | ---------------------- | ---------------------- |
 | 03/14      | [15649_N과 M(1)](https://www.acmicpc.net/problem/15649)       | [15649](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_15649)|
-
+| 03/15      | [15651_N과 M(3)](https://www.acmicpc.net/problem/15651)       | [15651](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_15651)|
   </div>
   
  </details>
