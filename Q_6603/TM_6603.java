@@ -15,8 +15,10 @@ public class TM_6603 {
       k = Integer.parseInt(st.nextToken());
       if (k == 0)
         break;
+
       s = new int[k];
       visited = new boolean[k];
+
       for (int i = 0; i < k; i++) {
         s[i] = Integer.parseInt(st.nextToken());
       }

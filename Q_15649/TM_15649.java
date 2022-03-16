@@ -4,34 +4,31 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class TM_15649 {
-  static boolean[] visit;
-  static StringBuilder sb = new StringBuilder();
-
   public static void main(String[] args) throws IOException {
     int n, m;
+    boolean[] visited;
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     StringTokenizer st = new StringTokenizer(br.readLine());
 
     n = Integer.parseInt(st.nextToken());
     m = Integer.parseInt(st.nextToken());
 
-    visit = new boolean[n];
-    perm("", n, m);
-    
-    System.out.println(sb);
+    visited = new boolean[n];
+
+    perm(n, m, visited, "");
   }
 
-  public static void perm(String prefix, int n, int m) {
+  public static void perm(int n, int m, boolean[] visited, String prefix) {
     if (m == 0) {
-      sb.append(prefix).append('\n');
+      System.out.println(prefix);
       return;
     }
     for (int i = 0; i < n; i++) {
-      if (visit[i])
+      if (visited[i])
         continue;
-      visit[i] = true;
-      perm(prefix + (i + 1) + " ", n, m - 1);
-      visit[i] = false;
+      visited[i] = true;
+      perm(n, m - 1, visited, prefix + (i + 1) + " ");
+      visited[i] = false;
     }
   }
 }
