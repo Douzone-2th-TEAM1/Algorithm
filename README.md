@@ -23,6 +23,7 @@
 | ----------- | ---------------------- | ---------------------- |
 | 03/14      | [15649_N과 M(1)](https://www.acmicpc.net/problem/15649)       | [15649](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_15649)|
 | 03/15      | [15651_N과 M(3)](https://www.acmicpc.net/problem/15651)       | [15651](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_15651)|
+| 03/16      | [6603_로또](https://www.acmicpc.net/problem/6603)       | [6603](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_6603)|
   </div>
   
  </details>
