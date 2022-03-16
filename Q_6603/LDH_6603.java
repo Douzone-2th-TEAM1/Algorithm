@@ -45,7 +45,7 @@ public class Main {
     static void dfs(int start, int depth) {
         if (depth == 6) { // depth가 6에 달했을 때
             for (int i=0; i<N; i++) {
-                if(visited[i]) // 방문 체크 되어 있지 않을 시
+                if(visited[i]) // 방문 체크 후
                 sb.append(arr[i]+" "); // 해당 순번의 값을 sb에 추가
             }
             sb.append("\n");
