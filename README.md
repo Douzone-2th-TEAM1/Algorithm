@@ -25,6 +25,7 @@
 | 03/15      | [15651_N과 M(3)](https://www.acmicpc.net/problem/15651)       | [15651](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_15651)|
 | 03/16      | [6603_로또](https://www.acmicpc.net/problem/6603)       | [6603](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_6603)|
 | 03/17      | [10819_차이를 최대로](https://www.acmicpc.net/problem/10819)       | [10819](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10819)|
+| 03/18      | [1759_암호 만들기](https://www.acmicpc.net/problem/1759)       | [1759](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1759)|
   </div>
   
  </details>
