@@ -29,3 +29,24 @@
   </div>
   
  </details>
+
+
+<details>
+  <summary>
+    <STRONG>
+      4️⃣ 째주 알고리즘[이분 탐색]
+    </STRONG>
+  </summary>
+     <br/>
+  <div markdown="1">
+
+| 월/일 | 문제                           | 풀이 링크 |
+| ----------- | ---------------------- | ---------------------- |
+| 03/21      | [랜선 자르기](https://www.acmicpc.net/problem/1654)       | [1654](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1654)|
+| 03/22      | [숫자 카드 2](https://www.acmicpc.net/problem/10816)       | [10816](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10816)|
+<!-- | 03/23      | [6603_로또](https://www.acmicpc.net/problem/6603)       | [6603](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_6603)|
+| 03/24      | [10819_차이를 최대로](https://www.acmicpc.net/problem/10819)       | [10819](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10819)|
+| 03/25      | [1759_암호 만들기](https://www.acmicpc.net/problem/1759)       | [1759](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1759)| -->
+  </div>
+  
+ </details>
