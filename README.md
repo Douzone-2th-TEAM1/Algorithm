@@ -44,9 +44,21 @@
 | ----------- | ---------------------- | ---------------------- |
 | 03/21      | [랜선 자르기](https://www.acmicpc.net/problem/1654)       | [1654](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1654)|
 | 03/22      | [숫자 카드 2](https://www.acmicpc.net/problem/10816)       | [10816](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10816)|
-<!-- | 03/23      | [6603_로또](https://www.acmicpc.net/problem/6603)       | [6603](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_6603)|
-| 03/24      | [10819_차이를 최대로](https://www.acmicpc.net/problem/10819)       | [10819](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10819)|
-| 03/25      | [1759_암호 만들기](https://www.acmicpc.net/problem/1759)       | [1759](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1759)| -->
+| 03/23      | [수 찾기](https://www.acmicpc.net/problem/1920)       | [1920](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1920)|
+| 03/24      | [숫자 카드](https://www.acmicpc.net/problem/10815)       | [10815](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10815)|
+| 03/25      | [암기왕](https://www.acmicpc.net/problem/2776)       | [2776](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_2276)|
   </div>
   
  </details>
+ 
+ 
+ 
+ 
+ | 월/일 | 문제                           | 풀이 링크 |
+| ----------- | ---------------------- | ---------------------- |
+| 03/28      | [알파벳 찾기](https://www.acmicpc.net/problem/10809)       | [10809](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10809)|
+<!-- | 03/23      | [6603_로또](https://www.acmicpc.net/problem/6603)       | [6603](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_6603)|
+| 03/24      | [10819_차이를 최대로](https://www.acmicpc.net/problem/10819)       | [10819](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10819)|
+| 03/25      | [1759_암호 만들기](https://www.acmicpc.net/problem/1759)       | [1759](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1759)| -->
+ 
+ 
