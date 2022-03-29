@@ -52,13 +52,12 @@
  </details>
  
  
+ <br/>
  
  
  | 월/일 | 문제                           | 풀이 링크 |
 | ----------- | ---------------------- | ---------------------- |
 | 03/28      | [알파벳 찾기](https://www.acmicpc.net/problem/10809)       | [10809](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10809)|
-<!-- | 03/23      | [6603_로또](https://www.acmicpc.net/problem/6603)       | [6603](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_6603)|
-| 03/24      | [10819_차이를 최대로](https://www.acmicpc.net/problem/10819)       | [10819](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_10819)|
-| 03/25      | [1759_암호 만들기](https://www.acmicpc.net/problem/1759)       | [1759](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1759)| -->
+| 03/29      | [잃어버린 괄호](https://www.acmicpc.net/problem/1541)       | [1541](https://github.com/Douzone-2th-TEAM1/Algorithm/tree/main/Q_1541)|
  
  
