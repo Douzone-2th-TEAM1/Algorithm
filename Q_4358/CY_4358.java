@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 
 
-public class Q_4358 {
+public class CY_4358 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     HashMap<String, Integer> dic = new HashMap<>();
