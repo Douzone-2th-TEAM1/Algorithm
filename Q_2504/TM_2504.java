@@ -37,9 +37,6 @@ public class Main {
           }
           temp /= 3;
           stack.pop();
-        } else {
-          System.out.println(0);
-          return;
         }
       }
       // System.out.println("ch : " + ch + " answer : " + answer + " temp : " + temp);
