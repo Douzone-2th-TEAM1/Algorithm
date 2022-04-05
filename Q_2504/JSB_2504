@@ -1,0 +1,69 @@
+// 1. ‘()’ 인 괄호열의 값은 2이다.
+// 2. ‘[]’ 인 괄호열의 값은 3이다.
+// 3. ‘(X)’ 의 괄호값은 2×값(X) 으로 계산된다.
+// 4. ‘[X]’ 의 괄호값은 3×값(X) 으로 계산된다.
+// 5. 올바른 괄호열 X와 Y가 결합된 XY의 괄호값은 값(XY)= 값(X)+값(Y) 로 계산된다.
+
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    static String s;
+    static int answer;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        s = sc.next();
+        Stack<Integer> st = new Stack<>();
+        int temp = 1;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                st.add(2);
+                temp *= 2;
+            } else if (s.charAt(i) == '[') {
+                st.add(3);
+                temp *= 3;
+            } else {// 닫는 괄호
+                    // 여는 괄호 없음
+                if (st.size() == 0) {
+                    answer = 0;
+                    break;
+                }
+
+                // 다른거 들어옴
+                if (s.charAt(i) != ']' && s.charAt(i) != ')') {
+                    answer = 0;
+                    break;
+                }
+                // 짝 안맞음
+                if ((s.charAt(i) == ']' && st.peek() == 2) || (s.charAt(i) == ')' && st.peek() == 3)) {
+                    answer = 0;
+                    break;
+                }
+
+                int cur = 2;
+                if (s.charAt(i) == ']') {
+                    cur = 3;
+                }
+
+                // 앞에 아무 것도 없거나(가장 바깥 괄호임), 더이상 안에 다른 괄호를 포함하지 않는 경우 계산이 끝나 더해준다.
+                if (st.size() == 0 || (s.charAt(i - 1) == '(' && cur == 2) || (s.charAt(i - 1) == '[' && cur == 3)) {
+                    answer += temp;
+                    // System.out.println(temp);
+                }
+
+                st.pop();// 여는 괄호 pop
+                temp /= cur;
+
+            }
+
+        }
+
+        if (st.size() != 0) {
+            // 모든 괄호가 안닫힘
+            answer = 0;
+        }
+
+        System.out.println(answer);
+    }
+}
