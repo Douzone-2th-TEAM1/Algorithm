@@ -16,9 +16,14 @@ public class TM_3568 {
     while (st.hasMoreTokens()) {
       String token = st.nextToken();
       for (char ch : token.toCharArray()) {
-        if (ch == '&' || ch == '[' || ch == ']' || ch == '*') {
+        if (ch == '&' || ch == '*') {
           exType.append(ch);
-        } else {
+        } else if (ch == '[') {
+          exType.append(']');
+        } else if(ch == ']' ) {
+          exType.append('[');
+        }
+        else {
           varName.append(ch);
         }
       }
@@ -26,7 +31,7 @@ public class TM_3568 {
 
       System.out
           .println(
-              varType + exType.toString().replace('[', '@').replace(']', '[').replace('@', ']') + " " + varName + ";");
+              varType + exType + " " + varName + ";");
 
       exType.setLength(0);
       varName.setLength(0);
