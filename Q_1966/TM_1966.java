@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -9,7 +8,7 @@ import java.util.StringTokenizer;
 public class TM_1966 {
   public static void main(String[] args) throws NumberFormatException, IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    ArrayList<Integer> list = new ArrayList<>();
+    StringBuffer sb = new StringBuffer();
     int N = Integer.valueOf(br.readLine());
 
     for (int i = 0; i < N; i++) {
@@ -25,12 +24,10 @@ public class TM_1966 {
         properties[j] = Integer.parseInt(st.nextToken());
       }
 
-      list.add(solution(properties, location));
+      sb.append(solution(properties, location)).append("\n");
     }
 
-    for (int answer : list) {
-      System.out.println(answer);
-    }
+    System.out.println(sb);
   }
 
   public static int solution(int[] priorities, int location) {
