@@ -22,7 +22,7 @@ class Solution {
             }
         }
         answer = list.toArray(new String[list.size()]);
-        
+     
         return answer;
     }
 }
