@@ -53,7 +53,7 @@ class Solution {
                 answer[i] = fees[1];
             }
         }
-        
+       
         return answer;
     }
 }
