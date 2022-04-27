@@ -30,7 +30,7 @@ public class Main {
 
         for (int i = 0; i < col; i++) {
             for (int j = 0; j < row; j++) {
-                System.out.println(s[j][i]);
+                System.out.print(s[j][i]);
             }
         }
 
