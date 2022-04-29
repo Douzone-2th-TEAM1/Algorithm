@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Main {
+    static int result = 0;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String line = sc.nextLine();
+
+        line = line.replaceAll("c=", "*");
+        line = line.replaceAll("c-", "*");
+        line = line.replaceAll("dz=", "*");
+        line = line.replaceAll("d-", "*");
+        line = line.replaceAll("lj", "*");
+        line = line.replaceAll("nj", "*");
+        line = line.replaceAll("s=", "*");
+        line = line.replaceAll("z=", "*");
+
+        System.out.println(line.length());
+        sc.close();
+    }
+}
