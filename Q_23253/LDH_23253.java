@@ -16,12 +16,12 @@ public class Main {
         for (int i = 0; i < bundle; i++) {
             int k = Integer.parseInt(br.readLine());
             String[] b = br.readLine().split(" ");
-            int preVal = Integer.MAX_VALUE;
+            int tmp = Integer.MAX_VALUE;
             for (int j = 0; j < k; j++) {
                 if (Integer.parseInt(b[j]) > preVal) {
                     result = false;
                 }
-                preVal = Integer.parseInt(b[j]);
+                tmp = Integer.parseInt(b[j]);
             }
         }
 
