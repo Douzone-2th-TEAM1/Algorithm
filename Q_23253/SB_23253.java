@@ -6,7 +6,7 @@ public class Main {
         String[] input = sc.nextLine().split(" ");
         int count = Integer.parseInt(input[1]);
         boolean result = true;
-        int MAX = 200_001;
+        int MAX = 200001;
 
         for (int i = 0; i < count; i++) {
             int c = Integer.parseInt(sc.nextLine());
